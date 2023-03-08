@@ -1,6 +1,6 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '../sdk'
 
-export const ROUTER_ADDRESS = '0xd99d1c33f9fc3444f8101754abc46c52416550d1'
+export const ROUTER_ADDRESS = '0x4df31DA5822fd29E532490445CEEBEE535A0f965'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -60,8 +60,8 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
   [ChainId.MAINNET]: [
     [
-      new Token(ChainId.MAINNET, '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82', 18, 'CAKE', 'PancakeSwap Token'),
-      new Token(ChainId.MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'),
+      new Token(ChainId.MAINNET, '0x32d88b8FE70D920D07A904BE93E7c8fb24678D95', 18, 'PST', 'PandaEverSwap Token'),
+      new Token(ChainId.MAINNET, '0x1997128b0Bc53Af87f7D733503D7dA4927310205', 18, 'WETH', 'Wrapped ETH'),
     ],
     [BUSD, USDT],
     [DAI, USDT],

@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://pancake-test.pages.dev',
+    href: '/swap',
   },
   {
     label: 'Trade',
@@ -20,11 +20,6 @@ const config: MenuEntry[] = [
         href: '/pool',
       },
     ],
-  },
-  {
-    label: 'Pools',
-    icon: 'PoolIcon',
-    href: 'https://pancake-test.pages.dev/pools',
   }
 ]
 
